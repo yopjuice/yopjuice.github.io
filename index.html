@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/styles/main.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img rel="icon" src="source/files/favicon_io/favicon-32x32.png" style="height: 2em;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Articles.html">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="button">Go</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="bg">
+        <video class="bg-video w-100"
+            src="source/files/mixkit-night-sky-with-stars-at-a-calm-lake-time-lapse-1704-medium.mp4" muted autoplay
+            loop></video>
+        <div class="bg-text">
+            <h1>Welcome to TBlog</h1>
+            <p>It is a place where we explore and share</p>
+        </div>
+    </div>
+
+    <div class="container-fluid my-4 bg-d" id="gallery">
+        <div class="row">
+            <div class="carousel-text col-md-5 p-4">
+                <h2 class="mb-4">TBlog Gallery</h2>
+                <p class="mx-4">This is the Tblog Gallery section where the most beautiful pictures from our articles are gathered. This way you can always admire all the landscapes we have visited and discovered.</p>
+                <p class="mx-4">Right now we are developing a brand new page for gallery on this website, however we haven't finished yet.</p>
+                <p class="mx-4">Anyways, enjoy the photos we've taken!</p>
+            </div>
+            <div id="carouselExample" class="carousel slide col-md-7">
+                <div class="carousel-inner my-4">
+                    <div class="carousel-item active">
+                        <img src="source/images/59975_1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="source/images/as_the_fire_dies_nc_appalachian_mountains_landscape.jpg"
+                            class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="source/images/morning_haze_oconafuftee.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="footer-text col-md-8 col-sm-12 px-4">
+                    <p>All rights reserved 2024</p>
+                    <p>Contact us any time for additional information: 8-999-777-66-55</p>
+                </div>
+                <div class="col-md-4 col-sm-12 right-footer">
+                    <div class="icons">
+
+                        <img class="f-icon mx-2" src="source/files/instagram.png">
+                        <img class="f-icon mx-2" src="source/files/whatsapp.png">
+                        <img class="f-icon mx-2" src="source/files/youtube.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
